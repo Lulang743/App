@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".deposit">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/mpesalogo"
+                android:layout_height="105dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="TRANSFER / RECEIVE MONEY"
+                android:textSize="20dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="0dp"
+                android:paddingTop="10dp"
+                android:background="@color/black"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/white"
+                android:layout_height="60dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="CURRENT BALANCE:"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="190dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="-200dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:inputType="number"
+                    android:id="@+id/currentAmount"
+                    android:paddingLeft="20dp"
+                    android:text="100.00"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+
+                android:textSize="20dp"
+                android:layout_marginTop="80dp"
+                android:textColor="@color/black"
+                android:text="Amount"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_marginRight="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="0dp"
+                android:paddingTop="10dp"
+                android:inputType="number"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="0dp"
+                android:textStyle="normal"
+                android:textSize="20dp"
+                android:inputType="number"
+                android:id="@+id/amount"
+                android:textAlignment="center"
+                android:gravity="center"
+
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginStart="20dp"
+                android:text="DEPOSIT"
+                android:id="@+id/deposit"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginStart="20dp"
+                android:text="SEND MONEY"
+                android:id="@+id/send"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
